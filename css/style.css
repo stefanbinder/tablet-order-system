@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body
+{margin:0; padding:0; overflow: hidden; background-color:#2b2b2b; color:#FFF; font-size:1em; font-family:Arial, Helvetica, Arial, sans-serif; -webkit-tap-highlight-color:rgba(0,0,0,0);}
+
+body.black
+{background-color:#000;}
+
+a
+{color:#FFF; text-decoration:none;}
+
+h1{ font-family:Arial, Helvetica, sans-serif;}
+
+fieldset
+{border-left:none; border-right:none; border-bottom:none; padding-bottom: 20px; position:relative;}
+
+fieldset.bottom_border
+{border-bottom:1px solid #FFF;}
+
+label.error
+{color: #f00; position: absolute; bottom: 8px; font-size: 1.2em;}
+
+.checkbox_big
+{border: 1px solid #000; width: 35px; height: 35px; display: inline-block;}
+
+legend
+{font-size: 1.05em;}
+
+legend.whitee
+{background-color:#ddd; color: #222;}
+
+/*				vielleicht so zu lösen... 
+.line
+{background-image: url('../images/linePixel.png'); background-repeat: repeat-x; background-position:center;}
+.line span
+{background-color:#2b2b2b;}
+*/
+#wrapper
+{width:100%; height:100%;}
+
+#foodmenu_top
+{width:100%; height:42px; background-image:url(../images/foodmenu_top.jpg); background-repeat:repeat-x; font-family:Arial, Helvetica, sans-serif; text-align:center; font-size:1.2em; padding-top:10px;}
+
+.foodmenu_top_button_style
+{width:25%; height:100%; float:left; cursor:pointer;  }
+
+.foodmenu_top_button_style.active
+{font-weight:bold; text-decoration:underline;}
+
+.foodmenu_top_button_style.left
+{background-image:url(../images/foodmenu_top_button_right.jpg); background-position:right bottom; background-repeat:no-repeat;}
+
+.foodmenu_top_button_style.middle
+{width:25%; background-image:url(../images/foodmenu_top_button_left.jpg), url(../images/foodmenu_top_button_right.jpg); background-position: left bottom, right bottom; background-repeat:no-repeat;}
+
+.foodmenu_top_button_style.right
+{background-image:url(../images/foodmenu_top_button_left.jpg); background-position: left bottom; background-repeat:no-repeat;}
+
+#foodmenu_sub
+{width:100%; height:60px; background-image:url(../images/foodmenu_sub.jpg); background-repeat:repeat-x; font-family: Arial, sans-serif; text-align:center; font-size:14px; }
+
+#foodmenu_sub ul
+{display:inline-block; list-style:none; margin:0; padding:0;}
+
+#foodmenu_sub .foodmenu_sub_button_style
+{font-size:1.3em; padding:17px 15px 0 15px; height:45px; float:left; cursor:pointer;}
+
+#foodmenu_sub .foodmenu_sub_button_style.active
+{ background:rgba(0,0,0,0.2)}
+
+#contentwrapper
+{height:632px;}
+
+#foodwrapper
+{width:40%; height:624px; float:left; font-family:Arial, Helvetica, sans-serif; padding:2px 0 5px 0px; }
+
+#food
+{overflow:auto;}
+
+.speise_style
+{cursor:pointer; padding:2px 3% 2px 4%; margin-top:25px;}
+
+.speise_style.active, .speise_style:hover
+{background-color:#6AA6C2;}
+
+.speise .speise_preis
+{float:right; font-size:0.6em; font-family:Arial, Helvetica, sans-serif; margin-top:5px;}
+
+#image
+{width:60%; height:631px; float:right; position:relative; }
+
+#image a
+{text-decoration:none}
+
+#image .image_fade, #image .image_fade .slide
+{width:100% !important; height:100% !important;}
+
+#image img
+{width:100%; height:631px;}
+
+#image .mehr_infos
+{width:130px; padding:20px; position:absolute; right:0; bottom:80px; text-align:center; font-family:Arial, Helvetica, sans-serif; font-weight:normal; background:rgba(0,0,0,0.7); z-index:50;font-size: 1.4em;}
+
+#image .bestellen
+{width:130px; padding:20px; right:0; bottom:10px; text-align:center; font-family: Arial,Helvetica, sans-serif;font-weight:normal; position:absolute; background:rgba(0,0,0,0.7); z-index:50; font-size: 1.4em;}
+
+#image .meal_add_button
+{width:130px; padding:45px 20px 43px 20px; right:180px; bottom:10px; text-align:center; font-family: Arial,Helvetica, sans-serif;font-weight:normal; position:absolute; background:rgba(143,188,143,0.5); z-index:50; font-size: 1.2em;}
+
+#image .remove
+{background:rgba(240,128,128,0.5);}
+
+#image .add_half
+{bottom: 80px;}
+
+#image .half
+{padding-top: 9px; padding-bottom: 9px;}
+
+#image .meal_further_button
+{width:310px; padding:20px; right:0px; bottom:155px; text-align:center; font-family: Arial,Helvetica, sans-serif;font-weight:normal; position:absolute; background:rgba(0,0,0,0.5); z-index:50; font-size: 1.2em;}
+
+#image .meal_order
+{bottom: 220px;}
+
+#footer
+{width:100%; height:58px; border-top:2px solid #a89058; background-color:#000; /**background-image:url(../images/foodmenu_top.jpg); background-repeat:repeat-x;**/ font-family:'Rondalo', Helvetica, Arial, sans-serif; text-align:center; font-size:1.3em;}
+
+.footer_button
+{width:16.6%; height:58px; float:left; cursor:pointer; padding-top:1px;}
+
+.footer_button .text
+{width:100%; height:58px; float:left; line-height:58px;}
+
+/**.footer_button.left
+{background-image:url(../images/footer_button_right.jpg); background-position:right bottom; background-repeat:no-repeat;}
+
+.footer_button.middle
+{background-image:url(../images/footer_button_left.jpg), url(../images/footer_button_right.jpg); background-position: left bottom, right bottom; background-repeat:no-repeat;}
+
+.footer_button.right
+{background-image:url(../images/footer_button_left.jpg); background-position: left bottom; background-repeat:no-repeat;}
+**/
+
+.clear
+{clear:both;}
+
+.button
+{background-color: #6AA6C2; color:#FFF; border:2px solid #BCDDFC; padding:5px 8px; margin:2px 3px; line-height:30px; font-size:1.1em; cursor:pointer;}
+
+/* Generelle Produktliste die in Bisher Bestellt & Payment Screen*/
+table.allProducts
+{width: 100%;}
+table.allProducts td.text
+{font-weight: 100; font-size: 1em;}
+table.allProducts td.count
+{font-size:0.8em; text-align: right; width: 40px;}
+table.allProducts td.price
+{padding-left: 8px; width: 40px; text-align: right;}
+
+/*
+.consumedUntilNow .count
+{position:absolute;right:70px;font-size:0.8em;}
+.consumedUntilNow .price
+{position:absolute;right:0px;}
+*/
+
+input{border-bottom-width: 8px;}
+
+/* Bestellen Box und bisher Bestellt */
+
+.jquery-lightbox-move .price_total{display: inline;font-size: 1.5em;font-weight: 700; float:right}
+.jquery-lightbox-move  h2, h1{display: inline;}
+.jquery-lightbox-move .button {margin-top: 30px; margin-left:auto; margin-right:auto; display: block;}
+.orders .price {font-family: Arial, Helvetica, sans-serif; display: inline;font-size: 1.5em;font-weight: 700;float:right; padding-top: 8px; padding-right: 35px;}
+
+
+/* mehr Info*/
+
+.dialog.more_info h1{ font-family: Arial, Helvetica, sans-serif; padding-bottom:5px;}
+.dialog.more_info h4{ display: inline; }
+.dialog.more_info .ingredients { margin-top:10px;}
+.dialog.more_info .image{ margin-left:-15px; padding:0px; padding-top:5px;}
+.dialog.more_info .price {font-family: Arial, Helvetica, sans-serif; display: inline;font-size: 1.5em;font-weight: 700;float:right; padding-top: 8px; padding-right: 35px;}
+.bestellen.lightbox.button {display:inline; }
+.allergy-hint { margin-bottom: 30px; margin-top:10px; }
+
+/* Bezahlen*/
+.payment_wrapper {height:630px;}
+.payment {padding: 15px 10px 10px 10px; overflow: auto;}
+
+#foodmenu_sub h1 { font-family: Arial, Helvetica, sans-serif; float:left; padding-left:10px; padding-top:8px;}
+.place { font-family: Arial, Helvetica, sans-serif; font-size:18px; float:right; padding-right:10px; padding-top:15px;}
+.payment .buttons input{background-color: #6AA6C2; color:#FFF; border:2px solid #BCDDFC; padding:5px 8px; margin:2px 3px; line-height:30px; font-size:1.1em; cursor:pointer; }
+.payment .text {font-weight:bold; padding-top:10px; float:left; padding-bottom:10px; }
+.payment .amount {float:right; font-weight:bold; padding-top:10px; padding-bottom:10px; }
+
+.payment .paymentMethods { clear:both;  }
+
+.used_coupon {color: #ad955d;}
+.used_coupon span{ font-weight: bold;}
+
+.button_secondary {border:1px solid #BCDDFC; padding: 3px; background-color: #555; margin:8px;line-height:20px;font-size:0.9em; cursor:pointer; color: #fff;}
+
+.neighborsBill {text-align: center;}
+.neighborsBill button {margin: 0px 0px 0px 5px;}
+.transfer_all {background-color: #3773a6; width: 400px;}
+.transfer_one {width: 300px;}
+
+/* Kellner rufen*/
+.call_waiter .button_1{ margin-left: 250px;  }
+.call_waiter .button{ display:inline; margin-left: 10px; margin-bottom: 10px; padding:15px; }
+.call_waiter {background-image:url(../images/waiter.jpg); height: 320px;margin-bottom: 10px;margin-left: -15px;width: 240px;; margin-top:10px; padding-left: 290px;}
+.call_waiter_question { font-size:2em; font-weight:bold;padding-left:px;padding-top: 30px;text-align: center;margin-left: -70px;}
+
+/* about*/
+.aboutus_wrapper {height:630px;}
+.aboutus {padding-left: 10px; padding-right:10px; overflow: auto;}
+.aboutus img {padding-left: 0px; padding-right:0px; margin-left:-10px;}
+
+h1.h1_sub_lunch
+{margin-left: 0px; font-size: 1.6em;}
+
+h1.h1_sub_lunch span
+{margin: 0px 15px 0px 15px; font-size:0.5em;}

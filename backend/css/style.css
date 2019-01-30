@@ -1,0 +1,184 @@
+html
+{background-color: #eee; font-family: Verdana, Geneva, sans-serif;}
+
+body
+{padding-bottom: 105px;}
+
+.clear
+{clear: both;}
+
+#menu{
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	background-color: #000;
+}
+#menu ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#menu ul li{
+	border-right: 2px solid #fff;
+	float: left;
+	height: 70px;
+	text-align: center;
+	padding: 30px 30px 0px 30px;
+	position: relative;
+}
+#menu ul li.login_button {
+	
+}
+#menu ul a{
+	color: #fff;
+	font-size: 20pt;
+	text-decoration: none;
+}
+#menu ul .count{
+	width: 40px;
+	height: 40px;
+	background-color: #FC0;
+	position: absolute;
+	top: 0px; right: 0px;
+	color: #000;
+}
+#menu ul .red{
+	background-color: #F00;
+}
+#top_menu {
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: #000;
+}
+
+#top_menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#top_menu ul li {
+	width: 24.5%;
+	border-right: 2px solid #fff;
+	float: left;
+	height: 50px;
+	text-align: center;
+	padding-top: 20px;
+	position: relative;
+}
+#top_menu ul a{
+	color: #fff;
+	font-size: 16pt;
+	text-decoration: none;
+}
+
+.login {
+	width: 500px;
+	height: 300px;
+	background-color:#aaa;
+	margin: auto;	
+}
+.login .label{
+	width: 200px;
+	font-size: 18pt;
+	color: #fff;
+	text-align: center;
+}
+
+.login input{
+	height:40px;
+}
+
+.table 
+{min-height: 50px; font-size: 18pt;	margin-bottom: 5px;}
+
+.bg0
+{background-color: #555; position:relative;}
+.bg1
+{background-color: #888; position:relative;}
+
+.table .block
+{float:left; width: 12%; height: 100%; color: #fff; text-align: center; display:block; position:absolute;}
+
+.table a
+{height:100%; display:block;}
+
+.table .time
+{font-size: 10pt; float:bottom;}
+
+.table .products
+{float: right; width: 87%;}
+
+.table .products .p
+{height: 45px; margin:2px 0; position: relative; padding-top:10px; padding-left:20px;}
+
+.KitchenScreen .open
+{background-color: #C30;}
+
+.KitchenScreen .inWork
+{background-color: #FC0;}
+
+.KitchenScreen .ready
+{background-color: #6C6;}
+
+.KitchenScreen .course
+{font-size: 0.9em; margin-left: 20px;}
+
+.KitchenScreen .place
+{display: none;}
+
+.WaiterScreen .ready
+{background-color: #C30;}
+
+.WaiterScreen .served
+{background-color: #6C6;}
+
+.WaiterScreen .place, .BarScreen .place
+{margin-right: 10px; font-size: 0.8em;}
+
+.BarScreen .open
+{background-color: #C30;}
+
+.BarScreen .ready
+{background-color: #6C6;}
+
+.table .count
+{margin-right: 10px; font-size: 1.1em; font-weight: bolder;}
+
+.table .additiv
+{margin-left: 10px; background-color: rgba(255,255,255,0.6);}
+
+.table .info
+{position:absolute; top: 0px; right: 0px; height: inherit; width: 100px; color: #fff; text-align: center; background-color: rgba(100, 100, 100, 0.6);}
+
+.table .products a
+{color:#000000; text-decoration:none}
+
+table.zebra tr:nth-child(2n+1) 
+{background-color:#CCC;}
+
+table.zebra tr:hover
+{background-color:#FC0;}
+
+form label
+{display:block; float:left; width:150px; height:20px; margin-bottom:10px;}
+
+form input, form select, form textarea
+{display:block; height:15px; margin-bottom:15px;}
+
+form select.multiple, form textarea
+{height:75px;}
+
+.storno_left
+{width: 500px; position: absolute; top: 0px; left: 0px;}
+
+.storno_right
+{width: 300px; position: absolute; top: 0px; left: 502px;}
+
+.buttons
+{position: absolute; top: 300px; left: 502px; width: 200px;}

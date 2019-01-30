@@ -1,0 +1,17 @@
+html, body, h1, h2, ul
+{margin:0; padding:0; background-color: #fff;font-size:1em;}
+
+body
+{font-size:0.7em; padding: 40px 20px 40px 20px; width: 555px; height: 762px; border: 1px solid #ccc;}
+
+h1
+{font-size:1em; letter-spacing:0.8em; text-align:center; margin-left:-15px;}
+
+.logo
+{margin:auto; margin-bottom:10px;}
+
+.white
+{color:#FFF;}
+
+.center
+{text-align:center; margin-left:-25px;}

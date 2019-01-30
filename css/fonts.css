@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'Rondalo';
+  src: url('rondalo.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'HansHand';
+  src: url('hanshand.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('gothic.ttf') format('truetype');
+}
+
+h1
+{font-family:'HansHand', Helvetica, Arial, sans-serif; font-size:2em; margin:0 0 2px 0;}
+
+h3
+{font-family:Arial, sans-serif; font-size:1.5em; margin:0 0 2px 0; font-weight:normal}

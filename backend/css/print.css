@@ -1,0 +1,17 @@
+html, body, h1, h2, ul
+{margin:0; padding:0;}
+
+body
+{font-size:0.8em; padding-bottom:10px;}
+
+h1
+{font-size:1.1em; letter-spacing:0.8em; text-align:center; margin-left:-15px;}
+
+.logo
+{margin:auto; margin-bottom:10px;}
+
+.white
+{color:#FFF;}
+
+.center
+{text-align:center; margin-left:-25px;}

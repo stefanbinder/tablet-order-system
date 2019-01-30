@@ -1,0 +1,4 @@
+AuthName "Orderingsystem"
+AuthType Basic
+AuthUserFile /home/www/web28/html/orderingsystem/.htpasswd
+require valid-user
